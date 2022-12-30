@@ -1,0 +1,41 @@
+.gallery {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.photo-card {
+  width: 270px;
+  height: 225px;
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  a {
+    text-decoration: none;
+  }
+}
+.load-more {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  align-items: center;
+  height: 36px;
+  border: 1px solid #fff;
+  background: blue;
+  text-align: center;
+  color: aquamarine;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.info {
+  display: flex;
+
+  padding-left: 15px;
+  gap: 8px;
+  color: blue;
+  font-size: 10px;
+}
